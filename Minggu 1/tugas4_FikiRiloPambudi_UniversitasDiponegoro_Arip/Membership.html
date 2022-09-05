@@ -1,0 +1,62 @@
+	<body>
+		<form name="frmLatihan" method="GET" action="#">
+			<table border="0" align="center" cellpadding="15" width="50%">
+				<thead>
+					<tr bgcolor="#1B4F72" style="color:white; font-family:verdana;font-size:120%;">
+						<th colspan="2">Form Registrasi Member</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="25%"><label>Nama</label></td>
+						<td>
+							<input type="text" name="nama" value="" placeholder="Nama Lengkap"
+							       size="50" maxlength="100"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Email</label></td>
+						<td>
+							<input type="text" name="email" value="" placeholder="Alamat Email"
+							       size="50" maxlength="100"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Gender</label></td>
+						<td>
+							<input type="radio" name="gender" value="L" checked/>Laki-Laki&nbsp;&nbsp;
+							<input type="radio" name="gender" value="P"/>Perempuan
+						</td>
+					</tr>
+					<tr>
+						<td><label>Usia</label></td>
+						<td>
+							<select name="Usia">
+								<option value="">-- Pilih Usia --</option>
+								<option value="anak">Anak (5- 11 tahun)</option>
+								<option value="remaja">Remaja (12-25 tahun)</option>
+								<option value="dewasa" selected>Dewasa (26-45 tahun)</option>
+								<option value="lansia">Lansia (46-65 tahun)</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top"><label>Makanan Favorit</label></td>
+						<td>
+							<input type="checkbox" name="makanan" value="Dessert"/>Dessert<br/>
+							<input type="checkbox" name="makanan" value="Main"/>Main Dish<br/>
+							<input type="checkbox" name="makanan" value="Side" checked/>Side Dish<br/>
+							<input type="checkbox" name="makanan" value="Snack"/>Snack<br/>
+							<input type="checkbox" name="makanan" value="Appetizer"/>Appetizer<br/>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top"><label>Kritik dan Saran</label></td>
+						<td>
+							<textarea name="kritik" cols="50" rows="5">Kritik dan Saran Anda</textarea>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
